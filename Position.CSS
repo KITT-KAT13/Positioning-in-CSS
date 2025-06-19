@@ -1,28 +1,37 @@
-.box{
-   width: 300px; 
-   height: 80px;
-   padding: 10px;
-   color: blue;
-   font-weight: bold;
-text-align: center;
-margin: 10px;
-} 
-
-.static{
-position: static;
-background-color: yellow;
+.box {
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
 }
 
-.relative{
-  position: relative;  
-  top: 20px;
-  left: 20px;
-  background-color: green;
+.static {
+    position: static;
+    background-color: yellow;
 }
 
-.absolute{
-  position: absolute;
-  background-color: gold;
-} 
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: green;
+}
 
-.f
+.absolute {
+    position: absolute;
+    background-color: gold;
+}
+
+.fixed {
+    position: fixed;
+    background-color: brown;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
